@@ -13,7 +13,7 @@ int main(){
 	while(scanf("%d %d",&n,&m) && n != 0){//scans input until n = 0
 		char input[n][m];
 		int field[n][m];
-		//puts input int an array
+		//puts input into an array
 		for(int i = 0;i < n;i++){
 			for(int j = 0;j < m;j++){
 				char inp;
